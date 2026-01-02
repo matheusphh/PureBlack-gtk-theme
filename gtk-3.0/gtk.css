@@ -1,0 +1,18 @@
+@define-color window_bg_color #000000;
+@define-color window_fg_color #ffffff;
+@define-color view_bg_color #000000;
+@define-color view_fg_color #ffffff;
+@define-color headerbar_bg_color #000000;
+@define-color headerbar_fg_color #ffffff;
+@define-color card_bg_color #121212;
+@define-color dialog_bg_color #000000;
+
+/* Adds a subtle border to inactive windows */
+window.background.csd:not(.maximized) {
+    border: 2px solid #ffffff;
+}
+
+/* Adds a more visible border to the active/focused window */
+window.background.csd:not(.maximized):focus-within {
+    border: 2px solid #ffffff;
+}
