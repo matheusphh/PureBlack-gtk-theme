@@ -1,0 +1,8 @@
+#panel { background-color: #000000; }
+.popup-menu-content { background-color: #000000; border: 2px solid #ffffff; }
+
+
+#overviewGroup {
+    background-repeat: no-repeat;
+    background-color: #000000; /* Fallback color if the image doesn't load */
+}
